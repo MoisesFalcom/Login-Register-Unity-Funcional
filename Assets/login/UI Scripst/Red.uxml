@@ -1,0 +1,23 @@
+<engine:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:engine="UnityEngine.UIElements" xmlns:editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/login/UI%20Scripst/Red.uss?fileID=7433441132597879392&amp;guid=c4b9af5c7ce1e422489aec1b19084edd&amp;type=3#Red" />
+    <engine:VisualElement name="Contenedor" class="contenedor" style="flex-grow: 1; position: absolute; visibility: visible;">
+        <engine:VisualElement name="PanelDerecho" enabled="true" class="panel-derecho" style="flex-grow: 1; width: 1454px; height: 1074px; visibility: visible; overflow: visible; display: flex; background-color: rgba(0, 102, 255, 0.67);">
+            <engine:VisualElement name="Login" enabled="true" class="captura-datos" style="flex-grow: 1; height: 482px; width: 1185px; left: 328px; top: 225px; visibility: hidden;">
+                <engine:Label text="Label" name="Text" style="height: 39px; width: 968px; -unity-text-align: upper-center; font-size: 27px;" />
+                <engine:TextField label="Nombre del usuario:" placeholder-text="filler text" name="LoginUser" value="Moises23" password="false" style="font-size: 24px; -unity-text-align: upper-right; top: -3px;" />
+                <engine:TextField label="Password:" placeholder-text="filler text" name="LoginPass" value="Contraseña123" style="font-size: 24px; -unity-text-align: upper-right; top: -3px;" />
+                <engine:Button text="Login" name="LoginButton" class="botn-envia" style="top: -13px;" />
+                <engine:Button text="Register" name="RegisterButton" class="botn-envia" style="top: -37px;" />
+            </engine:VisualElement>
+            <engine:VisualElement name="Register" enabled="true" class="captura-datos" style="flex-grow: 1; height: 351px; width: 1181px; left: 330px; top: -275px; display: flex; visibility: visible;">
+                <engine:TextField label="Nombre del usuario:" placeholder-text="filler text" name="UserNameInput" style="font-size: 24px; -unity-text-align: upper-right; top: -3px;" />
+                <engine:TextField label="Email" placeholder-text="filler text" name="EmailInput" style="font-size: 24px; -unity-text-align: upper-right; top: -3px;" />
+                <engine:TextField label="Password:" placeholder-text="filler text" name="Password" value="Contraseña123" style="font-size: 24px; -unity-text-align: upper-right; top: -3px;" />
+                <engine:TextField label="Password:" placeholder-text="filler text" name="Password" value="Contraseña123" style="font-size: 24px; -unity-text-align: upper-right; top: -3px;" />
+                <engine:Button text="Login" name="LoginButton" class="botn-envia" style="top: -13px;" />
+                <engine:Button text="Register" name="RegisterButton" class="botn-envia" style="top: -37px;" />
+                <engine:Label text="Label" name="Text" style="height: 39px; width: 968px; -unity-text-align: upper-center; font-size: 27px; top: -509px;" />
+            </engine:VisualElement>
+        </engine:VisualElement>
+    </engine:VisualElement>
+</engine:UXML>
